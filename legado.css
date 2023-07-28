@@ -1,6 +1,6 @@
 .cabecalho{
     background-color: #ffff;
-    color: #369457;
+    color: #ff0000;
   }
   .menu {
     position: absolute;
@@ -8,7 +8,7 @@
     right: 0px;
     height: 1100px;
     width: 1910px;
-    background-color: #369457;
+    background-color: #ff0000;
     text-align: center;
     color: #ffff;
   }
@@ -49,7 +49,7 @@
     top: 196px;
     left: 750px;
     font-size: 50px;
-    color: #369457;
+    color: #ff0000;
   }
   .txtprinc{
     position: absolute;
@@ -72,7 +72,25 @@
     background-color: #fff;
     width: 1000px;
     height: 270px;
-    color: #369457;
+    color: #ff0000;.cabecalho{
+      background-color: #ffff;
+      color: #369457;
+    }
+    .menu {
+      position: absolute;
+      top: 250px;
+      right: 0px;
+      height: 1100px;
+      width: 1910px;
+  …    left:0;
+      bottom:0;
+    }
+    .btn-1:hover:before,
+    .btn-1:hover:after{
+      width:100%;
+      transition:800ms ease all;
+    }
+    
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -132,11 +150,11 @@
     line-height: 42px;
     padding: 0;
     border: none;
-    background: #369457;
-    background: linear-gradient(0deg, #369457 0%, #369457 100%);
+    background: #ff0000;
+    background: linear-gradient(0deg, #ff0000 0%, #ff0000 100%);
   }
   .btn-5:hover {
-    color: #369457;
+    color: #ff0000;
     background: transparent;
     box-shadow:none;
   }
@@ -148,7 +166,7 @@
     right:0;
     height:2px;
     width:0;
-    background: #369457;
+    background: #ff0000;
     box-shadow:
      -1px -1px 5px 0px #0003,
      7px 7px 20px 0px #0003,
@@ -172,11 +190,11 @@
     line-height: 42px;
     padding: 0;
     border: none;
-    background: #369457;
-    background: linear-gradient(0deg, #369457 0%, #369457 100%);
+    background: #ff0000;
+    background: linear-gradient(0deg, #ff0000 0%, #ff0000 100%);
   }
   .btn-4:hover {
-    color: #369457;
+    color: #ff0000;
     background: transparent;
     box-shadow:none;
   }
@@ -188,7 +206,7 @@
     right:0;
     height:2px;
     width:0;
-    background: #369457;
+    background: #ff0000;
     box-shadow:
      -1px -1px 5px 0px #fff,
      7px 7px 20px 0px #0003,
@@ -212,11 +230,11 @@
     line-height: 42px;
     padding: 0;
     border: none;
-    background: #369457;
-    background: linear-gradient(0deg, #369457 0%, #369457 100%);
+    background: #ff0000;
+    background: linear-gradient(0deg, #ff0000 0%, #ff0000 100%);
   }
   .btn-3:hover {
-    color: #369457;
+    color: #ff0000;
     background: transparent;
     box-shadow:none;
   }
@@ -228,7 +246,7 @@
     right:0;
     height:2px;
     width:0;
-    background: #369457;
+    background: #ff0000;
     box-shadow:
      -1px -1px 5px 0px #fff,
      7px 7px 20px 0px #0003,
@@ -252,11 +270,11 @@
     line-height: 42px;
     padding: 0;
     border: none;
-    background: #369457;
-    background: linear-gradient(0deg, #369457 0%, #369457 100%);
+    background: #ff0000;
+    background: linear-gradient(0deg, #ff0000 0%, #ff0000 100%);
   }
   .btn-2:hover {
-    color: #369457;
+    color: #ff0000;
     background: transparent;
     box-shadow:none;
   }
@@ -268,7 +286,7 @@
     right:0;
     height:2px;
     width:0;
-    background: #369457;
+    background: #ff0000;
     box-shadow:
      -1px -1px 5px 0px #fff,
      7px 7px 20px 0px #0003,
@@ -292,11 +310,11 @@
     line-height: 42px;
     padding: 0;
     border: none;
-    background: #369457;
-    background: linear-gradient(0deg, #369457 0%, #369457 100%);
+    background: #ff0000;
+    background: linear-gradient(0deg, #ff0000 0%, #ff0000 100%);
   }
   .btn-1:hover {
-    color: #369457;
+    color: #ff0000;
     background: transparent;
     box-shadow:none;
   }
@@ -308,7 +326,7 @@
     right:0;
     height:2px;
     width:0;
-    background: #369457;
+    background: #ff0000;
     box-shadow:
      -1px -1px 5px 0px #fff,
      7px 7px 20px 0px #0003,
