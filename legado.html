@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Bad Site</title>
+    <link rel="stylesheet" type="text/css" href="legado.css"/>
+    <link class="icone" rel="shortcut icon" href="BB2.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+        <img class="logo" src="BB.png">
+            <nav class="Introdução">
+                <button class="btn-1"><a href="home.html"><span>Introdução</span></a></button>
+            </nav>
+            <nav class="Personagens">
+                <button class="btn-2"><a href="per.html"><span>Personagens</span></a></button>
+            </nav>
+            <nav class="Enredo">
+                <button class="btn-3"><a href="enredo.html"><span>Enredo</span></a></button>
+            </nav>
+            <nav class="Legado">
+                <button class="btn-4"><a href="legado.html"><span>Legado</span></a></button>
+            </nav>
+            <nav class="Direção">
+                <button class="btn-5"><a href="direcao.html"><span>Direção</span></a></button>
+            </nav>
+        </div>
+        <h1 class="titulo">Legado da História</h1>
+    </header>
+    <main>
+        <div class="menu">
+            <p class="txtprinc">
+                A força do drama vem do fato de ele ser um homem bom, pacífico, verdadeiramente honesto mas que de repente se vê fazendo mais e mais coisas ruins em nome de um fim bom. É uma versão dramatizada do famoso dilema de Heinz: um homem tem a esposa com uma doença fatal, mas só tem metade do dinheiro para comprar a única droga que pode salvá-la; o farmacêutico, que inventou tal droga, cobra 10 vezes o custo mas recusa-se a vendê-la mais barato. Deve o homem roubar o dinheiro? Por que? Embora haja só duas opções possíveis (roubar ou não), são as justificativas que interessam. E essas, há aos montes.
+                O professor White metaforicamente opta por "roubar o remédio", decidindo quebrar leis em nome de um bem maior em que acredita. Poderíamos chamar essa opção de utilitarista. Para tal escola de pensamento moral (Utilitarismo), a ação correta é aquela que tem mais utilidade, medida pela geração de maior felicidade para o maior número de pessoas. O professor White tenta então se convencer que fabricar drogas para garantir o bem da sua família (lembrando que o filho é deficiente e que a esposa está grávida) faz mais bem do que mal no cômputo geral. Mas ele mesmo tem dificuldade em acreditar nisso.
+
+Assistir a primeira temporada me fez lembrar de um estudo recente, que procurou relacionar os tipos de raciocínio moral com a personalidade das pessoas. Duzentas e oito pessoas responderam a 14 dilemas morais, semelhantes ao dilema de Heinz, e tiveram suas respostas correlacionadas com seus traços mais característicos. Eis que descobriu-se que, quanto mais próximo da psicopatia, mais utilitária era a pessoa. O que faz sentido, pois quanto mais indiferente se é aos outros, mais fácil de se ter frieza para raciocinar em termos de custos e benefícios, ignorando normas ou leis.
+
+É por isso que os prêmios que Breaking Bad e seu protagonista vêm colecionando são mais do que justos: o ator consegue interpretar um mocinho que se torna vilão, cheio de remorso mas sem mudança de atitude. Seu conflito é tão intenso que me levou a acreditar que ser utilitarista é para quem pode, não para quem quer.
+            </p>
+            <img class="fotointro" src="final.jpg">
+        </div>
+    </main>
+    <footer class="contato">
+        <h1>Contato:</h1>
+            <form>
+                <label for="nome e sobrenome">Nome e Sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrão" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padrão" required placeholder="seuemail@dominio.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrão" required placeholder="(XX) XXXXX-XXXX">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrão"></textarea required>
+                    
+            <fieldset>
+                <legend>Como prefere ser chamado?</legend>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+
+                <label for="radio-zap"><input type="radio" name="contato" value="whatsApp" id="radio-zap">WhatsApp</label>
+            </fieldset>
+            <fieldset>
+                <legend>Qual horário tu preferes ser atendido?</legend>
+            <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>  
+                    <option>Noite</option>
+            </select>
+            </fieldset>
+            </form>    
+    </footer>
+</body>
+</html>

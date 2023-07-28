@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Bad Site</title>
+    <link rel="stylesheet" type="text/css" href="enredo.css"/>
+    <link class="icone" rel="shortcut icon" href="BB2.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+        <img class="logo" src="BB.png">
+            <nav class="Introdução">
+                <button class="btn-1"><a href="home.html"><span>Introdução</span></a></button>
+            </nav>
+            <nav class="Personagens">
+                <button class="btn-2"><a href="per.html"><span>Personagens</span></a></button>
+            </nav>
+            <nav class="Enredo">
+                <button class="btn-3"><a href="enredo.html"><span>Enredo</span></a></button>
+            </nav>
+            <nav class="Legado">
+                <button class="btn-4"><a href="legado.html"><span>Legado</span></a></button>
+            </nav>
+            <nav class="Direção">
+                <button class="btn-5"><a href="direcao.html"><span>Direção</span></a></button>
+            </nav>
+        </div>
+        <h1 class="titulo">Qual o Enredo?</h1>
+    </header>
+    <main>
+        <div class="menu">
+            <p class="txtprinc">
+            O ator principal, Bryan Cranston, declarou numa entrevista que "o termo 'breaking bad' é uma gíria do Sul que significa que alguém desviou-se do caminho correto e passou a fazer coisas erradas. E isto aplica-se tanto a um dado momento quanto a uma vida inteira."
+            A rede AMC, que exibiu a série em 20 de Janeiro de 2008, pediu originalmente nove episódios para a primeira temporada (incluindo o episódio piloto), mas a Greve dos Escritores Americanos de 2007–2008 limitou a produção aos sete episódios existentes.
+            “Eu quero fazer o sincronismo de cor para cada um desses episódios em que você se senta com o colorista e certifica-se de que a cor de cada cena individual é exatamente da maneira que você queria.”
+            — Vince Gilligan, em entrevista para IndieWire, julho de 2012. Breaking Bad foi criado por Vince Gilligan, que, por vários anos, foi roteirista da série The X-Files. Gilligan queria criar uma série em que o protagonista torna-se o antagonista. "A televisão é historicamente boa em manter seus personagens em uma estase auto-imposto de modo que shows podem durar anos ou mesmo décadas", disse ele. "Quando percebi isso, o próximo passo lógico era pensar, como posso fazer um show em que a unidade fundamental é para a mudança?" Ele acrescentou que seu objetivo com Walter White foi para transformá-lo de Sr. Chips para Scarface.
+            Antes de ser adquirida pela AMC, Breaking Bad foi oferecida a outros canais americanos, como TNT, Showtime e FX. A série foi rejeitada até pela HBO, recusa que chamou a atenção pelo desprezo durante a apresentação (Pitch) feita por Vince Gilligan. Segundo ele, a executiva do canal e os subordinados dela presentes na reunião foram rudes e não prestaram atenção na apresentação. “A executiva que me atendeu não poderia ter mostrado menos interesse. Era palpável sentir o quanto estavam desinteressados”, relembrou.
+            </p>
+            <img class="fotointro" src="historia.jpg">
+        </div>
+    </main>
+    <footer class="contato">
+        <h1>Contato:</h1>
+            <form>
+                <label for="nome e sobrenome">Nome e Sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrão" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padrão" required placeholder="seuemail@dominio.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrão" required placeholder="(XX) XXXXX-XXXX">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrão"></textarea required>
+                    
+            <fieldset>
+                <legend>Como prefere ser chamado?</legend>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+
+                <label for="radio-zap"><input type="radio" name="contato" value="whatsApp" id="radio-zap">WhatsApp</label>
+            </fieldset>
+            <fieldset>
+                <legend>Qual horário tu preferes ser atendido?</legend>
+            <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>  
+                    <option>Noite</option>
+            </select>
+            </fieldset>
+            </form>    
+    </footer>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Bad Site</title>
+    <link rel="stylesheet" type="text/css" href="per.css"/>
+    <link class="icone" rel="shortcut icon" href="BB2.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+        <img class="logo" src="BB.png">
+            <nav class="Introdução">
+                <button class="btn-1"><a href="home.html"><span>Introdução</span></a></button>
+            </nav>
+            <nav class="Personagens">
+                <button class="btn-2"><a href="per.html"><span>Personagens</span></a></button>
+            </nav>
+            <nav class="Enredo">
+                <button class="btn-3"><a href="walter.html"><span>Enredo</span></a></button>
+            </nav>
+            <nav class="Legado">
+                <button class="btn-4"><a href="walter.html"><span>Legado</span></a></button>
+            </nav>
+            <nav class="Direção">
+                <button class="btn-5"><a href="walter.html"><span>Direção</span></a></button>
+            </nav>
+        </div>
+        <h1 class="titulo">Quais são os personagens?</h1>
+    </header>
+    <main>
+        <section id="cards" class="grid">
+            <ul>
+              <li>
+                <div class="card1">
+                  <img src="195822372.png" alt="">
+                  <div class="card-content">
+                    <h3>Walter White:</h3>
+                    <p> Walter era um químico promissor e um dos fundadores da bilionária empresa Gray Matter Technologies, porém logo saiu dela, vendendo suas partes nas ações por US$ 5 mil por razões pessoais, tornando-se um professor de química infeliz e desiludido. Após ser diagnosticado com câncer pulmonar nível 3, resolve fabricar metanfetamina para garantir a segurança financeira de sua família após sua morte. Desesperado com o fato que sua família irá passar necessidades após sua morte, decide que fará qualquer coisa para que não sofram com isso. Impulsionado pelo desejo, adrenalina e medo de não oferecer dignidade a sua família, aproveita de suas habilidades e conhecimentos em química, a favor do crime. Com o decorrer da série, Walter gradualmente se torna sombrio e mais perverso, sofrendo uma significativa mudança psicológica em relação ao começo da série.</p>            
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="card2">
+                  <img src="Gus.png" alt="">
+                  <div class="card-content">
+                    <h3>Gustavo Fring:</h3>
+                    <p> Ele é um empresário chileno-americano e importante distribuidor de narcóticos no sudoeste dos Estados Unidos que usa vários negócios legítimos, incluindo uma cadeia de restaurantes de fast food de sucesso chamada Los Pollos Hermanos.(The Chicken Brothers) e uma lavanderia industrial chamada Lavandería Brillante (Bright Laundry), como fachadas usadas para lavar dinheiro para uma vasta operação de drogas. Embora exteriormente ele trabalhe com o cartel mexicano para distribuir cocaína, ele secretamente planeja vingança contra seus membros pela morte de seu sócio e parceiro romântico Maximino "Max" Arciniega nas mãos de Hector Salamanca , o patriarca do tráfico de drogas apoiado pelo cartel. no sudoeste. Para se tornar independente da cocaína do cartel, ele constrói um laboratório secreto sob uma lavanderia industrial para fabricar metanfetamina.</p>            
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="card3">
+                  <img src="jesse.png" alt="">
+                  <div class="card-content">
+                    <h3>Jesse Pinkman:</h3>
+                    <p> Ele é um cozinheiro de metanfetamina de cristal e trabalha com seu ex-professor de química do ensino médio, Walter White (Bryan Cranston) em uma operação de metanfetamina. Jesse é o único personagem além de Walt a aparecer em cada episódio do show. O personagem recebeu elogios tanto de críticos como de fãs. Paul também recebeu aclamação universal por sua atuação. Para o seu retrato, Paul ganhou o Prêmio Emmy Primetime por ator de apoio excepcional em uma série de dramas em 2010, 2012 e 2014 - o que o torna o único ator a ganhar a categoria três vezes, desde sua separação em drama e comédia. De volta, quando as categorias foram combinadas, Art Carney e Don Knotts ganharam três também, o que liga Paul para a maioria das vitórias na história do prêmio. Jesse é bem conhecido por seu uso liberal das palavras " yo" e "bitch".</p>     
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+    </main>
+    <footer class="contato">
+        <h1>Contato:</h1>
+            <form>
+                <label for="nome e sobrenome">Nome e Sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrão" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padrão" required placeholder="seuemail@dominio.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrão" required placeholder="(XX) XXXXX-XXXX">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrão"></textarea required>
+                    
+            <fieldset>
+                <legend>Como prefere ser chamado?</legend>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+
+                <label for="radio-zap"><input type="radio" name="contato" value="whatsApp" id="radio-zap">WhatsApp</label>
+            </fieldset>
+            <fieldset>
+                <legend>Qual horário tu preferes ser atendido?</legend>
+            <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>  
+                    <option>Noite</option>
+            </select>
+            </fieldset>
+            </form>    
+    </footer>
+</body>
+</html>

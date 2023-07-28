@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Bad Site</title>
+    <link rel="stylesheet" type="text/css" href="home.css"/>
+    <link class="icone" rel="shortcut icon" href="BB2.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+        <img class="logo" src="BB.png">
+            <nav class="Introdução">
+                <button class="btn-1"><a href="home.html"><span>Introdução</span></a></button>
+            </nav>
+            <nav class="Personagens">
+                <button class="btn-2"><a href="per.html"><span>Personagens</span></a></button>
+            </nav>
+            <nav class="Enredo">
+                <button class="btn-3"><a href="enredo.html"><span>Enredo</span></a></button>
+            </nav>
+            <nav class="Legado">
+                <button class="btn-4"><a href="legado.html"><span>Legado</span></a></button>
+            </nav>
+            <nav class="Direção">
+                <button class="btn-5"><a href="direcao.html"><span>Direção</span></a></button>
+            </nav>
+        </div>
+        <h1 class="titulo">O que é Breaking Bad?</h1>
+    </header>
+    <main>
+        <div class="menu">
+            <p class="txtprinc">
+                Breaking Bad é uma série de televisão americana criada e produzida por Vince Gilligan. Ela retrata a vida do químico
+                Walter White, um homem brilhante frustrado em dar aulas para adolescentes do ensino médio enquanto lida com um filho 
+                sofrendo de paralisia cerebral, uma esposa grávida e dívidas intermináveis. White, então, é diagnosticado com um câncer
+                no pulmão - o que o leva a sofrer um colapso emocional e abraçar uma vida de crimes para pagar suas dívidas
+                hospitalares e dar uma boa vida aos seus filhos.
+            </p>
+            <img class="fotointro" src="familiawhite.jpg">
+        </div>
+    </main>
+    <footer class="contato">
+        <h1>Contato:</h1>
+            <form>
+                <label for="nome e sobrenome">Nome e Sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrão" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padrão" required placeholder="seuemail@dominio.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrão" required placeholder="(XX) XXXXX-XXXX">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrão"></textarea required>
+                    
+            <fieldset>
+                <legend>Como prefere ser chamado?</legend>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+
+                <label for="radio-zap"><input type="radio" name="contato" value="whatsApp" id="radio-zap">WhatsApp</label>
+            </fieldset>
+            <fieldset>
+                <legend>Qual horário tu preferes ser atendido?</legend>
+            <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>  
+                    <option>Noite</option>
+            </select>
+            </fieldset>
+            </form>    
+    </footer>
+</body>
+</html>
