@@ -72,25 +72,7 @@
     background-color: #fff;
     width: 1000px;
     height: 270px;
-    color: #ff0000;.cabecalho{
-      background-color: #ffff;
-      color: #369457;
-    }
-    .menu {
-      position: absolute;
-      top: 250px;
-      right: 0px;
-      height: 1100px;
-      width: 1910px;
-  …    left:0;
-      bottom:0;
-    }
-    .btn-1:hover:before,
-    .btn-1:hover:after{
-      width:100%;
-      transition:800ms ease all;
-    }
-    
+    color: #ff0000;
     display: flex;
     align-items: center;
     flex-direction: column;
