@@ -1,6 +1,6 @@
 .cabecalho{
     background-color: #ffff;
-    color: #369457;
+    color: #ff0000;
   }
   .menu {
     position: absolute;
@@ -8,7 +8,7 @@
     right: 0px;
     height: 600px;
     width: 1910px;
-    background-color: #369457;
+    background-color: #ff0000;
     text-align: center;
     color: #ffff;
   }
@@ -49,7 +49,7 @@
     top: 196px;
     left: 700px;
     font-size: 50px;
-    color: #369457;
+    color: #ff0000;
   }
   .txtprinc{
     position: absolute;
@@ -74,7 +74,7 @@
     background-color: #fff;
     width: 1000px;
     height: 270px;
-    color: #369457;
+    color: #ff0000;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -96,7 +96,7 @@
   table, caption, tbody, tfoot, thead, tr, th, td,
   article, aside, canvas, details, embed, 
   figure, figcaption, footer, header, hgroup, 
-  menu, nav, output, ruby, section, summary,
+  menu, nav, output, ruby, section, summ#369457ary,
   time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -134,11 +134,11 @@
     line-height: 42px;
     padding: 0;
     border: none;
-    background: #369457;
-    background: linear-gradient(0deg, #369457 0%, #369457 100%);
+    background: #ff0000;
+    background: linear-gradient(0deg, #ff0000 0%, #ff0000 100%);
   }
   .btn-5:hover {
-    color: #369457;
+    color: #ff0000;
     background: transparent;
     box-shadow:none;
   }
@@ -150,7 +150,7 @@
     right:0;
     height:2px;
     width:0;
-    background: #369457;
+    background: #ff0000;
     box-shadow:
      -1px -1px 5px 0px #0003,
      7px 7px 20px 0px #0003,
@@ -174,11 +174,11 @@
     line-height: 42px;
     padding: 0;
     border: none;
-    background: #369457;
-    background: linear-gradient(0deg, #369457 0%, #369457 100%);
+    background: #ff0000;
+    background: linear-gradient(0deg, #ff0000 0%, #ff0000 100%);
   }
   .btn-4:hover {
-    color: #369457;
+    color: #ff0000;
     background: transparent;
     box-shadow:none;
   }
@@ -190,7 +190,7 @@
     right:0;
     height:2px;
     width:0;
-    background: #369457;
+    background: #ff0000;
     box-shadow:
      -1px -1px 5px 0px #fff,
      7px 7px 20px 0px #0003,
@@ -214,11 +214,11 @@
     line-height: 42px;
     padding: 0;
     border: none;
-    background: #369457;
-    background: linear-gradient(0deg, #369457 0%, #369457 100%);
+    background: #ff0000;
+    background: linear-gradient(0deg, #ff0000 0%, #ff0000 100%);
   }
   .btn-3:hover {
-    color: #369457;
+    color: #ff0000;
     background: transparent;
     box-shadow:none;
   }
@@ -230,7 +230,7 @@
     right:0;
     height:2px;
     width:0;
-    background: #369457;
+    background: #ff0000;
     box-shadow:
      -1px -1px 5px 0px #fff,
      7px 7px 20px 0px #0003,
@@ -254,11 +254,11 @@
     line-height: 42px;
     padding: 0;
     border: none;
-    background: #369457;
-    background: linear-gradient(0deg, #369457 0%, #369457 100%);
+    background: #ff0000;
+    background: linear-gradient(0deg, #ff0000 0%, #ff0000 100%);
   }
   .btn-2:hover {
-    color: #369457;
+    color: #ff0000;
     background: transparent;
     box-shadow:none;
   }
@@ -270,7 +270,7 @@
     right:0;
     height:2px;
     width:0;
-    background: #369457;
+    background: #ff0000;
     box-shadow:
      -1px -1px 5px 0px #fff,
      7px 7px 20px 0px #0003,
@@ -294,11 +294,11 @@
     line-height: 42px;
     padding: 0;
     border: none;
-    background: #369457;
-    background: linear-gradient(0deg, #369457 0%, #369457 100%);
+    background: #ff0000;
+    background: linear-gradient(0deg, #ff0000 0%, #ff0000 100%);
   }
   .btn-1:hover {
-    color: #369457;
+    color: #ff0000;
     background: transparent;
     box-shadow:none;
   }
@@ -310,7 +310,7 @@
     right:0;
     height:2px;
     width:0;
-    background: #369457;
+    background: #ff0000;
     box-shadow:
      -1px -1px 5px 0px #fff,
      7px 7px 20px 0px #0003,
